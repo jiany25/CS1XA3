@@ -1,0 +1,5 @@
+  1 ./todo.log
+ 16 ./changes.log
+  1 ./2.log
+  1 ./error.log
+ 19 total

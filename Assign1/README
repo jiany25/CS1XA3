@@ -1,3 +1,27 @@
+1.Function: repoCheck()
+  Instruction: Informs you if your local repo is up to date with the remote repo.
+  Note: Just redirect the standard output of the command 
+        git pull
+2.Function: uncommitedChanges()
+  Instruction: Puts all uncommited changes in a file changes.log
+  Note: Using > instead of >> to overwrite the changes.log file so that every time you check, the system returns you the latest status.
+3.Function: findTodo()
+  Instruction: Puts each line from every file of your project with the tag #TODO into a file todo.log
+  Note: 1) flag -r for seaching all subdirectories and files
+	2) flag -h for hidding the file names so that the system outputs the content lines only
+	3) echo command for avoid the error
+           grep: input file ‘todo.log’ is also the output
+4.Function: checkError()
+  Instruction: Checks all haskell files for syntax errors and puts the results into error.log
+  Note: 1) find commnd for searching all haskell files
+	2) xagrs for piping the output from 1) to input
+	3) ghc -fno-code for checking hskell syntax error
+        4) > for overwrite the file every time you check
+5.Function:myFunction()
+  Instruction: Find all .log file and return the number of lines of each file you have found.  Note: 1) flag -iname for ignoring upper or lower cases
+        2) flag -l for specifying that the command wc is for counting lines
+        3) > for giving the newest data.
+
 work cited:
   1.https://stackoverflow.com/questions/41062724/grep-input-file-is-also-the-output-file
   2.https://github.com/khannk1/CS1XA3.git
