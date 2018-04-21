@@ -2,7 +2,7 @@
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE FlexibleInstances #-}
 
-{- |
+{-|
 Module : ExprDiff
 Description : This section contains the following content:
                 1. a class decleration using Embedded Domain Specific Language
