@@ -15,8 +15,6 @@ License : WTFPL
 Maintainer : jiany25@mcmaster.ca
 Stability : experimental
 Portability : POSIX
-TODO write a longer description of the module,
-containing some commentary with @some markup@.
 -}
 module ExprDiff where
 
