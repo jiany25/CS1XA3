@@ -45,7 +45,8 @@ data Expr a = Const a -- ^ Value wrapper: Const Num a => a, such as Const Intege
 -- | A function that obtains the varibale identifiers and forms a list of strings.
 getVars :: Expr a -- ^ Input datatype: Expr a , which is defined above
            -> [String]-- ^ Output type: List of String
-getVars e = case e of-- ^ Using pattern matching to let the definition cover very type from the expression tree.
+-- | Using pattern matching to let the definition cover very type from the expression tree.
+getVars e = case e of
        (Var ident) -> [ident]-- ^ Return the list of variable idetifiers.
        (Const a) -> []-- ^ Return a empty list since the Const tag wraps a Num a value and no variable can be obtained.
        (Add e1 e2) -> getVars e1 `union` getVars e2-- ^ Return the union list of two lists that are obtained from the two args of Add (Expr a) (Expr a) expression.
