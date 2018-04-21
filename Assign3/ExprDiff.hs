@@ -2,7 +2,7 @@
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE FlexibleInstances #-}
 
-{-|
+{- |
 Module : ExprDiff
 Description : 
   This section contains the following content:
