@@ -20,10 +20,9 @@ containing some commentary with @some markup@.
 -}
 module ExprDiff where
 
---
-import qualified Data.Map.Strict as Map
--- | This depends on the "ExprType" module
-import ExprType  
+
+import qualified Data.Map.Strict as Map 
+import ExprType -- ^ This depends on the "ExprType" module
 
 -- * Class Decleration
 -- | Generalizing expressions into a Embedded Domain Specific Language using a Type Class
