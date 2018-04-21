@@ -12,18 +12,15 @@ License : WTFPL
 Maintainer : jiany25@mcmaster.ca
 Stability : experimental
 Portability : POSIX
-TODO write a longer description of the module,
-containing some commentary with @some markup@.
 -}
 module ExprParser where
 
--- | This depends on the "ExprType" module
-import ExprType
+import ExprType-- ^ This depends on the "ExprType" module
 
--- | To use the Parsec Combinators to define the parsing functions for Expr a datatype
-import Text.Parsec
--- | To use the Parsec.String Combinators to define the auxiliary parser functions.
-import Text.Parsec.String  
+
+import Text.Parsec-- ^ To use the Parsec Combinators to define the parsing functions for Expr a datatype
+import Text.Parsec.String  -- ^ To use the Parsec.String Combinators to define the auxiliary parser functions.
+
 -- | A function that takes a string of numeric expression and parses to the desired expression of (Expr double) datatype
 
 -- * Main parser functions
