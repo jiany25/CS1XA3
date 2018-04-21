@@ -2,19 +2,7 @@
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE FlexibleInstances #-}
 
-{-|
-Module : ExprDiff
-Description : This section contains the following content:
-                1. a class decleration using Embedded Domain Specific Language
-                  (1) Main Class Methods
-                  (2) Methods with Default Implementation
-                2. Method Definition (Definition about the implement of the differentiation of (Expr a) dataType)
-Copyright : (c) Yifan Jiang @2018
-License : WTFPL
-Maintainer : jiany25@mcmaster.ca
-Stability : experimental
-Portability : POSIX
--}
+
 module ExprDiff where
 
 
