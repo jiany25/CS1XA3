@@ -8,19 +8,17 @@ License : WTFPL
 Maintainer : jiany25@mcmaster.ca
 Stability : experimental
 Portability : POSIX
-TODO write a longer description of the module,
-containing some commentary with @some markup@.
 -}
 module ExprTest where
 
--- | This depends on the "ExprDiff" module
-import ExprDiff
--- | This depends on the "ExprParser" module
-import ExprParser
--- | This depends on the "ExprPretty" module
-import ExprPretty
--- | This depends on the "ExprType" module
-import ExprType
+
+import ExprDiff-- ^ This depends on the "ExprDiff" module
+
+import ExprParser-- ^ This depends on the "ExprParser" module
+
+import ExprPretty-- ^ This depends on the "ExprPretty" module
+
+import ExprType-- ^ This depends on the "ExprType" module
 
 import qualified Data.Map.Strict as Map
 -- | A Haskell tool that tests your code and return boolean expression
