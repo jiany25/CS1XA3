@@ -9,13 +9,10 @@ License : WTFPL
 Maintainer : jiany25@mcmaster.ca
 Stability : experimental
 Portability : POSIX
-TODO write a longer description of the module,
-containing some commentary with @some markup@.
 -}
 module ExprPretty where
 
--- | This depends on the "ExprType" module
-import ExprType
+import ExprType-- ^ This depends on the "ExprType" module
 
 -- * Auxiliay function
 -- | A funtion that put string in the parentheses.
