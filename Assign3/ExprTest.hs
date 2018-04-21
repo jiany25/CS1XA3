@@ -14,13 +14,13 @@ containing some commentary with @some markup@.
 module ExprTest where
 
 -- | This depends on the "ExprDiff" module
-import           ExprDiff
+import ExprDiff
 -- | This depends on the "ExprParser" module
-import           ExprParser
+import ExprParser
 -- | This depends on the "ExprPretty" module
-import           ExprPretty
+import ExprPretty
 -- | This depends on the "ExprType" module
-import           ExprType
+import ExprType
 
 import qualified Data.Map.Strict as Map
 -- | A Haskell tool that tests your code and return boolean expression
