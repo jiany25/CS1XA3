@@ -1,4 +1,4 @@
-{-|
+{- |
 Module : ExprParser
 Description : 
   This section contains the following content:
