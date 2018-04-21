@@ -23,7 +23,7 @@ Portability : POSIX
 module ExprType where
 
 
-import Data.List-- ^ So we can use the `union` method to define the getVars function
+import Data.List -- ^ So we can use the `union` method to define the getVars function
 
 -- * DataType Decleration
 -- | The Expr a is a wrapper that wraps different operations in a expression tree.
